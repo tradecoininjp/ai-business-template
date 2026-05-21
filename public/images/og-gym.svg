@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F1112"/>
+      <stop offset="100%" stop-color="#1E2327"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect x="64" y="64" width="1072" height="502" rx="24" fill="#14181B" stroke="#F6B317" stroke-width="3"/>
+  <text x="96" y="220" fill="#F6B317" font-size="42" font-family="Arial, sans-serif">Forge Elite Gym</text>
+  <text x="96" y="300" fill="#F4F5F6" font-size="76" font-weight="700" font-family="Arial, sans-serif">Strength. Coaching. Results.</text>
+  <text x="96" y="370" fill="#C7CDD2" font-size="34" font-family="Arial, sans-serif">Performance-first gym website preset</text>
+</svg>

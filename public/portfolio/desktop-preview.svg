@@ -1,0 +1,10 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#0D0D0B"/>
+  <rect x="72" y="56" width="1136" height="608" rx="24" fill="#151510" stroke="#2F2D24"/>
+  <rect x="110" y="98" width="1060" height="64" rx="12" fill="#1D1C16"/>
+  <rect x="112" y="208" width="640" height="240" rx="16" fill="#1D1C16"/>
+  <rect x="792" y="208" width="378" height="240" rx="16" fill="#2A2720"/>
+  <rect x="112" y="480" width="240" height="54" rx="27" fill="#C8A560"/>
+  <rect x="370" y="480" width="200" height="54" rx="27" fill="#2F2D24"/>
+  <text x="130" y="142" fill="#E6D1A1" font-size="28" font-family="Arial, sans-serif">Desktop Hero + CTA Preview</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A1A26"/>
+      <stop offset="100%" stop-color="#17364C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect x="64" y="64" width="1072" height="502" rx="24" fill="#112838" stroke="#34B3FF" stroke-width="3"/>
+  <text x="96" y="220" fill="#34B3FF" font-size="42" font-family="Arial, sans-serif">RapidFlow Plumbing</text>
+  <text x="96" y="300" fill="#EEF7FF" font-size="72" font-weight="700" font-family="Arial, sans-serif">Reliable Service, Fast Response</text>
+  <text x="96" y="370" fill="#A9D7F4" font-size="34" font-family="Arial, sans-serif">Emergency and scheduled plumbing preset</text>
+</svg>

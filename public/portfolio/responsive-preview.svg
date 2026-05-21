@@ -1,0 +1,9 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#0A1A26"/>
+  <rect x="70" y="90" width="820" height="540" rx="22" fill="#112838" stroke="#294B61"/>
+  <rect x="960" y="120" width="260" height="500" rx="24" fill="#163142" stroke="#34B3FF"/>
+  <rect x="104" y="140" width="750" height="60" rx="10" fill="#17364C"/>
+  <rect x="104" y="230" width="470" height="210" rx="14" fill="#17364C"/>
+  <rect x="104" y="470" width="220" height="48" rx="24" fill="#34B3FF"/>
+  <text x="110" y="178" fill="#91D6FF" font-size="26" font-family="Arial, sans-serif">Responsive Desktop + Mobile Layout Preview</text>
+</svg>

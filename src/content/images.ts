@@ -55,7 +55,7 @@ export const gymImagePack: PresetImagePack = {
     { src: "/images/hero-barber.svg", alt: "Athlete performance training area" },
     { src: "/images/og-barber.svg", alt: "Gym branding and premium interior" },
   ],
-  ogImage: "/images/og-barber.svg",
+  ogImage: "/images/og-gym.svg",
 };
 
 export const plumbingImagePack: PresetImagePack = {
@@ -79,7 +79,7 @@ export const plumbingImagePack: PresetImagePack = {
     { src: "/images/hero-barber.svg", alt: "Commercial plumbing maintenance" },
     { src: "/images/og-barber.svg", alt: "Plumbing brand service fleet" },
   ],
-  ogImage: "/images/og-barber.svg",
+  ogImage: "/images/og-plumbing.svg",
 };
 
 export const cleaningImagePack: PresetImagePack = {
@@ -103,7 +103,7 @@ export const cleaningImagePack: PresetImagePack = {
     { src: "/images/hero-barber.svg", alt: "Eco-friendly cleaning supplies in use" },
     { src: "/images/og-barber.svg", alt: "Pristine Clean branded equipment setup" },
   ],
-  ogImage: "/images/og-barber.svg",
+  ogImage: "/images/og-cleaning.svg",
 };
 
 export const presetImagePacks: Record<PresetAssetKey, PresetImagePack> = {

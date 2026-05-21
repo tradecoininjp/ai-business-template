@@ -21,12 +21,20 @@ export function buildMetadata({ pathname = "/", title, description, noIndex = fa
   const resolvedTitle = title ?? businessConfig.seo.defaultTitle;
   const resolvedDescription = description ?? businessConfig.seo.description;
   const canonicalUrl = buildCanonicalUrl(pathname);
+  const iconUrl = businessConfig.business.logo?.src ?? "/images/favicon.svg";
 
   return {
     metadataBase: new URL(businessConfig.business.websiteUrl),
+    applicationName: businessConfig.business.name,
     title: resolvedTitle,
     description: resolvedDescription,
     keywords: businessConfig.seo.keywords,
+    category: "local-business",
+    icons: {
+      icon: [{ url: iconUrl, type: "image/svg+xml" }],
+      shortcut: [{ url: iconUrl, type: "image/svg+xml" }],
+      apple: [{ url: iconUrl, type: "image/svg+xml" }],
+    },
     alternates: {
       canonical: canonicalUrl,
     },
