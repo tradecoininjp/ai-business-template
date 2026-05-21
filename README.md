@@ -73,6 +73,29 @@ AI-assisted delivery process:
 
 Typical delivery cycle: 3-5 business days per website.
 
+## Business Presets
+
+The project now supports multiple business presets through configuration only (no component rewrites).
+
+Available presets:
+
+- barber
+- gym
+
+Switch preset using environment variable:
+
+```bash
+# .env.local
+NEXT_PUBLIC_BUSINESS_PRESET=gym
+```
+
+Preset source files:
+
+- src/constants/presets.ts
+- src/constants/business.ts
+- src/content/services.ts
+- src/content/testimonials.ts
+
 ## Current Status
 
 In active development, focused on:

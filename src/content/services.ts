@@ -38,3 +38,42 @@ export const premiumBarberServices: ServiceItem[] = [
     icon: "kid",
   },
 ];
+
+export const eliteGymServices: ServiceItem[] = [
+  {
+    slug: "strength-coaching",
+    title: "Strength Coaching",
+    description: "Progressive strength programs designed for measurable results and long-term performance.",
+    icon: "style",
+  },
+  {
+    slug: "fat-loss-conditioning",
+    title: "Fat-Loss Conditioning",
+    description: "High-efficiency conditioning blocks combining cardio intervals and functional circuits.",
+    icon: "facial",
+  },
+  {
+    slug: "small-group-training",
+    title: "Small Group Training",
+    description: "Coach-led group sessions with individual attention, accountability, and structured progression.",
+    icon: "kid",
+  },
+  {
+    slug: "athletic-performance",
+    title: "Athletic Performance",
+    description: "Speed, agility, and power development for athletes and active professionals.",
+    icon: "razor",
+  },
+  {
+    slug: "mobility-recovery",
+    title: "Mobility & Recovery",
+    description: "Mobility routines and guided recovery sessions to reduce stiffness and optimize training output.",
+    icon: "beard",
+  },
+  {
+    slug: "nutrition-support",
+    title: "Nutrition Support",
+    description: "Simple nutrition guidance aligned to your body goals, schedule, and lifestyle.",
+    icon: "scissors",
+  },
+];

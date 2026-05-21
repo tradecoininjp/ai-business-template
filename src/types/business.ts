@@ -67,7 +67,15 @@ export type AboutContent = {
   eyebrow: string;
   title: string;
   description: string;
+  missionLabel: string;
   mission: string;
+  image?: GalleryImage;
+};
+
+export type GalleryContent = {
+  eyebrow: string;
+  title: string;
+  description: string;
 };
 
 export type BookingContent = {
@@ -76,14 +84,42 @@ export type BookingContent = {
   description: string;
   primaryCtaLabel: string;
   primaryCtaHref: `#${string}` | string;
+  secondaryCtaLabel?: string;
+  secondaryCtaHref?: `#${string}` | string;
+};
+
+export type ContactFormPlaceholders = {
+  name: string;
+  email: string;
+  phone: string;
+  message: string;
 };
 
 export type ContactContent = {
   eyebrow: string;
   title: string;
   description: string;
+  infoTitle: string;
+  hoursTitle: string;
+  formTitle: string;
+  formDescription: string;
   formCtaLabel: string;
+  formPlaceholders: ContactFormPlaceholders;
   businessHours: BusinessHour[];
+};
+
+export type MapsContent = {
+  eyebrow: string;
+  title: string;
+  description: string;
+  embedUrl: string;
+};
+
+export type FooterContent = {
+  contactLabel: string;
+  exploreLabel: string;
+  socialLabel: string;
+  copyrightText: string;
 };
 
 export type SeoContent = {
@@ -103,9 +139,12 @@ export type BusinessConfig = {
   trustMetrics: TrustMetric[];
   services: ServiceItem[];
   about: AboutContent;
+  gallerySection: GalleryContent;
   testimonials: Testimonial[];
   gallery: GalleryImage[];
   booking: BookingContent;
   contact: ContactContent;
+  maps: MapsContent;
+  footer: FooterContent;
   seo: SeoContent;
 };

@@ -20,3 +20,24 @@ export const premiumBarberTestimonials: Testimonial[] = [
     rating: 5,
   },
 ];
+
+export const eliteGymTestimonials: Testimonial[] = [
+  {
+    name: "Ryan Cole",
+    role: "Member - 8 Months",
+    quote: "The coaching is structured and practical. I dropped 9kg while getting stronger every month.",
+    rating: 5,
+  },
+  {
+    name: "Sophia Turner",
+    role: "Busy Professional",
+    quote: "Sessions are efficient and the team keeps me accountable. It finally feels sustainable.",
+    rating: 5,
+  },
+  {
+    name: "Noah Bennett",
+    role: "Weekend Athlete",
+    quote: "Programming is elite. My mobility improved and my performance on the field is noticeably better.",
+    rating: 5,
+  },
+];
