@@ -77,3 +77,81 @@ export const eliteGymServices: ServiceItem[] = [
     icon: "scissors",
   },
 ];
+
+export const proPlumbingServices: ServiceItem[] = [
+  {
+    slug: "emergency-plumbing",
+    title: "24/7 Emergency Plumbing",
+    description: "Rapid-response leak, burst pipe, and urgent plumbing support for homes and businesses.",
+    icon: "razor",
+  },
+  {
+    slug: "drain-cleaning",
+    title: "Drain Cleaning",
+    description: "Safe, efficient drain clearing to restore flow and prevent recurring blockages.",
+    icon: "facial",
+  },
+  {
+    slug: "water-heater-service",
+    title: "Water Heater Service",
+    description: "Installation, repair, and maintenance for reliable hot water all year round.",
+    icon: "style",
+  },
+  {
+    slug: "pipe-repair",
+    title: "Pipe Repair & Replacement",
+    description: "Durable pipe repairs and upgrades designed for long-term reliability.",
+    icon: "beard",
+  },
+  {
+    slug: "fixture-installation",
+    title: "Fixture Installation",
+    description: "Professional installation for sinks, faucets, toilets, and kitchen plumbing fixtures.",
+    icon: "scissors",
+  },
+  {
+    slug: "inspection-maintenance",
+    title: "Inspection & Maintenance",
+    description: "Preventive checks to reduce risks and avoid costly emergency repairs.",
+    icon: "kid",
+  },
+];
+
+export const pristineCleaningServices: ServiceItem[] = [
+  {
+    slug: "home-deep-clean",
+    title: "Home Deep Cleaning",
+    description: "Detailed top-to-bottom cleaning for kitchens, bathrooms, and living spaces.",
+    icon: "facial",
+  },
+  {
+    slug: "office-cleaning",
+    title: "Office Cleaning",
+    description: "Reliable recurring cleaning schedules for productive and healthy workspaces.",
+    icon: "style",
+  },
+  {
+    slug: "move-in-out",
+    title: "Move-In / Move-Out Cleaning",
+    description: "Thorough property turnover cleaning for landlords, tenants, and property managers.",
+    icon: "razor",
+  },
+  {
+    slug: "post-construction",
+    title: "Post-Construction Cleanup",
+    description: "Dust and debris removal to make newly renovated spaces ready for occupancy.",
+    icon: "beard",
+  },
+  {
+    slug: "carpet-upholstery",
+    title: "Carpet & Upholstery Care",
+    description: "Fabric-safe treatment that refreshes furniture and extends carpet life.",
+    icon: "scissors",
+  },
+  {
+    slug: "eco-friendly-clean",
+    title: "Eco-Friendly Cleaning",
+    description: "Low-toxicity products and processes designed for families, pets, and sensitive spaces.",
+    icon: "kid",
+  },
+];

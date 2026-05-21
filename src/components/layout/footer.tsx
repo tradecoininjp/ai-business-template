@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { businessConfig } from "@/constants/business";
 import { Container } from "@/components/layout/container";
 import type { BusinessIdentity, FooterContent, NavItem, SocialLinks } from "@/types/business";
@@ -29,7 +30,18 @@ export function Footer({
     <footer className="border-t border-[var(--color-border)] bg-black py-10">
       <Container className="grid gap-6 text-sm text-zinc-400 md:grid-cols-4 md:items-start">
         <div>
-          <p className="font-display text-lg text-[var(--color-gold-soft)]">{business.name}</p>
+          <div className="flex items-center gap-3">
+            {business.logo ? (
+              <Image
+                src={business.logo.src}
+                alt={business.logo.alt}
+                width={28}
+                height={28}
+                className="h-7 w-7 rounded-full border border-[var(--color-border)] bg-black/40 object-cover p-1"
+              />
+            ) : null}
+            <p className="font-display text-lg text-[var(--color-gold-soft)]">{business.name}</p>
+          </div>
           <p className="mt-2 max-w-xs leading-6">{business.slogan}</p>
           <p className="mt-4 text-xs uppercase tracking-[0.2em] text-zinc-500">{content.copyrightText}</p>
         </div>

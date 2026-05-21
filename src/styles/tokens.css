@@ -17,3 +17,23 @@
   --color-panel-strong: #1d1c16;
   --color-border: #2f2d24;
 }
+
+.theme-plumbing-pro {
+  --background: #0a1a26;
+  --foreground: #eef7ff;
+  --color-gold: #34b3ff;
+  --color-gold-soft: #91d6ff;
+  --color-panel: #122634;
+  --color-panel-strong: #163142;
+  --color-border: #294b61;
+}
+
+.theme-cleaning-fresh {
+  --background: #0d1f1e;
+  --foreground: #effcf9;
+  --color-gold: #6ddccf;
+  --color-gold-soft: #b8f2eb;
+  --color-panel: #163130;
+  --color-panel-strong: #1e3d3b;
+  --color-border: #2f5f5a;
+}

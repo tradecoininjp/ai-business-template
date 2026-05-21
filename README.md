@@ -81,6 +81,8 @@ Available presets:
 
 - barber
 - gym
+- plumbing
+- cleaning
 
 Switch preset using environment variable:
 
@@ -89,12 +91,21 @@ Switch preset using environment variable:
 NEXT_PUBLIC_BUSINESS_PRESET=gym
 ```
 
+Environment template:
+
+```bash
+cp .env.example .env.local
+```
+
 Preset source files:
 
 - src/constants/presets.ts
 - src/constants/business.ts
 - src/content/services.ts
 - src/content/testimonials.ts
+- src/content/images.ts
+- src/constants/theme.ts
+- src/styles/tokens.css
 
 ## Content and Image Replacement Workflow
 
@@ -103,7 +114,7 @@ Use this workflow to customize each business without changing component code.
 ### 1. Select preset
 
 - Set `NEXT_PUBLIC_BUSINESS_PRESET` in `.env.local`.
-- Available values: `barber`, `gym`.
+- Available values: `barber`, `gym`, `plumbing`, `cleaning`.
 
 ### 2. Replace business content
 
@@ -136,6 +147,12 @@ Use this workflow to customize each business without changing component code.
 2. Create/update matching services/testimonials/image packs.
 3. Register the new preset key in `businessPresets`.
 4. Set `NEXT_PUBLIC_BUSINESS_PRESET=<new-key>`.
+
+## Delivery Playbook
+
+For standardized handoff, cloning, branding replacement, and deployment flow, see:
+
+- docs/delivery-playbook-ja.md
 
 ## Current Status
 

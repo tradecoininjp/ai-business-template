@@ -1,0 +1,8 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="48" fill="#0A1A26"/>
+  <path d="M90 64H166V96H90V64Z" fill="#34B3FF"/>
+  <path d="M112 96H144V140H112V96Z" fill="#91D6FF"/>
+  <path d="M84 140H172V172C172 185.255 161.255 196 148 196H108C94.7452 196 84 185.255 84 172V140Z" fill="#34B3FF"/>
+  <circle cx="128" cy="154" r="10" fill="#0A1A26"/>
+  <text x="128" y="224" text-anchor="middle" fill="#91D6FF" font-size="20" font-family="sans-serif">RAPIDFLOW</text>
+</svg>

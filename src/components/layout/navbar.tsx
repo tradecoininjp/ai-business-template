@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { businessConfig } from "@/constants/business";
 import { useActiveSection } from "@/hooks/use-active-section";
@@ -30,7 +31,17 @@ export function Navbar() {
     >
       <Container className="flex h-20 items-center justify-between gap-4">
         <Link href="#home" className="group flex items-center gap-3">
-          <span className="inline-block h-2 w-2 rounded-full bg-[var(--color-gold)] shadow-[0_0_20px_var(--color-gold)]" />
+          {businessConfig.business.logo ? (
+            <Image
+              src={businessConfig.business.logo.src}
+              alt={businessConfig.business.logo.alt}
+              width={28}
+              height={28}
+              className="h-7 w-7 rounded-full border border-[var(--color-border)] bg-black/40 object-cover p-1"
+            />
+          ) : (
+            <span className="inline-block h-2 w-2 rounded-full bg-[var(--color-gold)] shadow-[0_0_20px_var(--color-gold)]" />
+          )}
           <span className="font-display text-base tracking-[0.05em] text-[var(--color-gold-soft)] sm:text-lg">
             {businessConfig.business.name}
           </span>

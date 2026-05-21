@@ -41,3 +41,45 @@ export const eliteGymTestimonials: Testimonial[] = [
     rating: 5,
   },
 ];
+
+export const proPlumbingTestimonials: Testimonial[] = [
+  {
+    name: "Emma Carter",
+    role: "Homeowner",
+    quote: "They arrived in under an hour, fixed the leak fast, and explained everything clearly.",
+    rating: 5,
+  },
+  {
+    name: "Oliver Grant",
+    role: "Restaurant Manager",
+    quote: "Professional crew and zero disruption during service. Reliable partner for urgent repairs.",
+    rating: 5,
+  },
+  {
+    name: "Mia Collins",
+    role: "Property Manager",
+    quote: "We use them across multiple properties. Consistent quality and excellent communication.",
+    rating: 5,
+  },
+];
+
+export const pristineCleaningTestimonials: Testimonial[] = [
+  {
+    name: "Isabella Reed",
+    role: "Working Parent",
+    quote: "The team is punctual, thorough, and my home always feels hotel-clean afterward.",
+    rating: 5,
+  },
+  {
+    name: "James Turner",
+    role: "Office Administrator",
+    quote: "Our office looks spotless every week. Service is consistent and easy to coordinate.",
+    rating: 5,
+  },
+  {
+    name: "Charlotte Evans",
+    role: "Real Estate Agent",
+    quote: "Move-out cleans are excellent and help listings look premium for photography and showings.",
+    rating: 5,
+  },
+];

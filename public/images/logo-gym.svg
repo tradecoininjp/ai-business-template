@@ -1,0 +1,7 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="48" fill="#111111"/>
+  <rect x="40" y="112" width="176" height="32" rx="16" fill="#F6B317"/>
+  <rect x="58" y="96" width="20" height="64" rx="8" fill="#F2F2F2"/>
+  <rect x="178" y="96" width="20" height="64" rx="8" fill="#F2F2F2"/>
+  <text x="128" y="198" text-anchor="middle" fill="#F2F2F2" font-size="22" font-family="sans-serif">FORGE</text>
+</svg>

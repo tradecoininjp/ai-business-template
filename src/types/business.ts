@@ -45,6 +45,7 @@ export type BusinessHour = {
 export type BusinessIdentity = {
   name: string;
   slogan: string;
+  logo?: GalleryImage;
   phone: string;
   email: string;
   address: string;

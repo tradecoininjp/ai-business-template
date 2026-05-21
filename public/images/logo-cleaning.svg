@@ -1,0 +1,6 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="256" rx="48" fill="#0D1F1E"/>
+  <path d="M128 56L142 98H186L150 124L164 168L128 142L92 168L106 124L70 98H114L128 56Z" fill="#6DDCCF"/>
+  <circle cx="128" cy="124" r="16" fill="#B8F2EB"/>
+  <text x="128" y="214" text-anchor="middle" fill="#B8F2EB" font-size="20" font-family="sans-serif">PRISTINE</text>
+</svg>
