@@ -1,0 +1,10 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#0B0B09" />
+  <circle cx="1100" cy="80" r="220" fill="#C8A560" fill-opacity="0.2" />
+  <rect x="90" y="120" width="700" height="390" rx="28" fill="#12110D" />
+  <rect x="140" y="185" width="280" height="36" rx="10" fill="#C8A560" />
+  <rect x="140" y="250" width="560" height="72" rx="14" fill="#F4F2EB" />
+  <rect x="140" y="340" width="470" height="24" rx="9" fill="#BFB9AA" />
+  <rect x="140" y="378" width="390" height="24" rx="9" fill="#9D988C" />
+  <text x="140" y="480" fill="#E8D7B0" font-size="42" font-family="Georgia, serif">Premium Barber Shop</text>
+</svg>
