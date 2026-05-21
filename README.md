@@ -96,6 +96,47 @@ Preset source files:
 - src/content/services.ts
 - src/content/testimonials.ts
 
+## Content and Image Replacement Workflow
+
+Use this workflow to customize each business without changing component code.
+
+### 1. Select preset
+
+- Set `NEXT_PUBLIC_BUSINESS_PRESET` in `.env.local`.
+- Available values: `barber`, `gym`.
+
+### 2. Replace business content
+
+- Update text/content by preset in `src/constants/presets.ts`.
+- Replace:
+	- business identity (name, phone, email, address)
+	- hero copy
+	- about/booking/contact copy
+	- maps URL
+	- footer labels
+
+### 3. Replace services and testimonials
+
+- Edit service datasets in `src/content/services.ts`.
+- Edit testimonial datasets in `src/content/testimonials.ts`.
+- Keep structure and typing unchanged for drop-in reuse.
+
+### 4. Replace images in one place
+
+- Manage preset image packs in `src/content/images.ts`.
+- Replace:
+	- hero background image
+	- about image
+	- gallery image list + alt text
+	- OG image path
+
+### 5. Add a new business preset
+
+1. Duplicate one preset object in `src/constants/presets.ts`.
+2. Create/update matching services/testimonials/image packs.
+3. Register the new preset key in `businessPresets`.
+4. Set `NEXT_PUBLIC_BUSINESS_PRESET=<new-key>`.
+
 ## Current Status
 
 In active development, focused on:

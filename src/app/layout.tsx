@@ -17,7 +17,9 @@ const displayFont = Playfair_Display({
 
 const theme = getThemeConfig(businessConfig.themeKey as keyof typeof import("@/constants/theme").themes);
 
-export const metadata: Metadata = buildMetadata();
+export function generateMetadata(): Metadata {
+  return buildMetadata({ pathname: "/" });
+}
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (

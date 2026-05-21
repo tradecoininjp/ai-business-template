@@ -11,6 +11,8 @@ type AboutSectionProps = {
 };
 
 export function AboutSection({ id = "about", content = businessConfig.about }: AboutSectionProps) {
+  const isSvgAboutImage = content.image?.src.endsWith(".svg") ?? false;
+
   return (
     <section id={id} className="border-b border-[var(--color-border)] bg-black py-20 sm:py-24">
       <Container>
@@ -23,6 +25,10 @@ export function AboutSection({ id = "about", content = businessConfig.about }: A
                     src={content.image.src}
                     alt={content.image.alt}
                     fill
+                    unoptimized={isSvgAboutImage}
+                    loading="lazy"
+                    decoding="async"
+                    quality={76}
                     sizes="(max-width: 768px) 100vw, 45vw"
                     className="object-cover"
                   />

@@ -1,5 +1,6 @@
 import { eliteGymServices, premiumBarberServices } from "@/content/services";
 import { eliteGymTestimonials, premiumBarberTestimonials } from "@/content/testimonials";
+import { barberImagePack, gymImagePack } from "@/content/images";
 import type { BusinessConfig } from "@/types/business";
 
 export const barberPreset: BusinessConfig = {
@@ -34,10 +35,7 @@ export const barberPreset: BusinessConfig = {
     primaryCtaHref: "#book",
     secondaryCtaLabel: "View Signature Services",
     secondaryCtaHref: "#services",
-    backgroundImage: {
-      src: "/images/hero-barber.svg",
-      alt: "Luxury barber interior with modern styling chairs",
-    },
+    backgroundImage: barberImagePack.hero,
   },
   trustIndicators: ["4.9 / 5 average rating", "2,000+ local clients", "Open 7 days"],
   trustMetrics: [
@@ -53,10 +51,7 @@ export const barberPreset: BusinessConfig = {
       "We combine classic barber discipline with a modern luxury experience so clients leave polished, confident, and camera-ready.",
     missionLabel: "Mission",
     mission: "Deliver dependable grooming with detail, consistency, and a hospitality-first atmosphere.",
-    image: {
-      src: "/images/hero-barber.svg",
-      alt: "Barber team delivering precision grooming service",
-    },
+    image: barberImagePack.about,
   },
   gallerySection: {
     eyebrow: "Studio Highlights",
@@ -65,14 +60,7 @@ export const barberPreset: BusinessConfig = {
       "Gallery media is configuration-driven, making this section easy to swap for gyms, plumbing teams, cleaning crews, and other local business verticals.",
   },
   testimonials: premiumBarberTestimonials,
-  gallery: [
-    { src: "/images/hero-barber.svg", alt: "Premium barber studio interior" },
-    { src: "/images/og-barber.svg", alt: "Premium barber brand presentation" },
-    { src: "/images/hero-barber.svg", alt: "Barber preparing beard sculpting service" },
-    { src: "/images/og-barber.svg", alt: "Client-ready premium grooming finish" },
-    { src: "/images/hero-barber.svg", alt: "Luxury barber tools and chair setup" },
-    { src: "/images/og-barber.svg", alt: "Storefront and premium brand identity" },
-  ],
+  gallery: barberImagePack.gallery,
   booking: {
     eyebrow: "Quick Booking",
     title: "Get your preferred time slot today.",
@@ -119,7 +107,7 @@ export const barberPreset: BusinessConfig = {
     defaultTitle: "Premium Barber Shop | Precision Grooming",
     description:
       "A production-ready local business website system for premium barber shops and modern service brands.",
-    ogImage: "/images/og-barber.svg",
+    ogImage: barberImagePack.ogImage,
     keywords: ["barber shop website", "local business website", "premium grooming", "next.js template"],
   },
 };
@@ -157,10 +145,7 @@ export const gymPreset: BusinessConfig = {
     primaryCtaHref: "#book",
     secondaryCtaLabel: "Explore Programs",
     secondaryCtaHref: "#services",
-    backgroundImage: {
-      src: "/images/hero-barber.svg",
-      alt: "Athletes training in a premium gym studio",
-    },
+    backgroundImage: gymImagePack.hero,
   },
   trustIndicators: ["4.9 / 5 member rating", "1,500+ transformations", "Open daily"],
   trustMetrics: [
@@ -176,10 +161,7 @@ export const gymPreset: BusinessConfig = {
       "Forge Elite Gym combines programming, accountability, and expert coaching so members build sustainable results without guesswork.",
     missionLabel: "Mission",
     mission: "Help local members become stronger, healthier, and more confident through structured training systems.",
-    image: {
-      src: "/images/hero-barber.svg",
-      alt: "Gym coaching session with members",
-    },
+    image: gymImagePack.about,
   },
   gallerySection: {
     eyebrow: "Training Environment",
@@ -188,14 +170,7 @@ export const gymPreset: BusinessConfig = {
       "Every gallery item is configuration-driven so teams can switch business verticals quickly without touching section markup.",
   },
   testimonials: eliteGymTestimonials,
-  gallery: [
-    { src: "/images/hero-barber.svg", alt: "Strength training zone inside Forge Elite Gym" },
-    { src: "/images/og-barber.svg", alt: "Coach-led group training session" },
-    { src: "/images/hero-barber.svg", alt: "Member conditioning circuit workout" },
-    { src: "/images/og-barber.svg", alt: "Functional training and mobility session" },
-    { src: "/images/hero-barber.svg", alt: "Athlete performance training area" },
-    { src: "/images/og-barber.svg", alt: "Gym branding and premium interior" },
-  ],
+  gallery: gymImagePack.gallery,
   booking: {
     eyebrow: "Start Strong",
     title: "Claim your free fitness assessment.",
@@ -241,7 +216,7 @@ export const gymPreset: BusinessConfig = {
   seo: {
     defaultTitle: "Forge Elite Gym | Strength & Conditioning",
     description: "A scalable local business website preset for modern gyms, coaching studios, and fitness brands.",
-    ogImage: "/images/og-barber.svg",
+    ogImage: gymImagePack.ogImage,
     keywords: ["gym website template", "fitness studio website", "strength coaching", "local business template"],
   },
 };

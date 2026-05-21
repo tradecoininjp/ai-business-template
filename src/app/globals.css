@@ -71,3 +71,15 @@ section {
     transform: translateY(-10px);
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-fade-up,
+  .animate-fade-up-delay,
+  .animate-float-slow {
+    animation: none !important;
+  }
+}

@@ -1,13 +1,6 @@
 import type { MetadataRoute } from "next";
-import { businessConfig } from "@/constants/business";
+import { buildSitemapEntries } from "@/lib/seo";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: businessConfig.business.websiteUrl,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 1,
-    },
-  ];
+  return buildSitemapEntries();
 }

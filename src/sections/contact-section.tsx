@@ -27,6 +27,14 @@ export function ContactSection({
             <SectionTitle eyebrow={content.eyebrow} title={content.title} description={content.description} />
 
             <p className="mt-8 text-xs font-semibold uppercase tracking-[0.26em] text-[var(--color-gold)]">{content.infoTitle}</p>
+            <div className="mt-4 flex flex-col gap-3 sm:flex-row">
+              <Button href={`tel:${business.phone}`} variant="secondary" className="sm:flex-1">
+                Call {business.phone}
+              </Button>
+              <Button href={business.bookingUrl} className="sm:flex-1">
+                {businessConfig.booking.primaryCtaLabel}
+              </Button>
+            </div>
             <div className="mt-8 space-y-3 text-sm text-zinc-300">
               <p>{business.address}</p>
               <a href={`mailto:${business.email}`} className="block hover:text-[var(--color-gold-soft)]">

@@ -5,6 +5,8 @@ import { Container } from "@/components/layout/container";
 import { TrustIndicators } from "@/components/shared/trust-indicators";
 
 export function HeroSection() {
+  const isSvgHero = businessConfig.hero.backgroundImage.src.endsWith(".svg");
+
   return (
     <section id="home" className="relative isolate overflow-hidden border-b border-[var(--color-border)]">
       <Image
@@ -12,7 +14,9 @@ export function HeroSection() {
         alt={businessConfig.hero.backgroundImage.alt}
         fill
         priority
+        unoptimized={isSvgHero}
         sizes="100vw"
+        decoding="async"
         className="object-cover object-center"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-[#080807] via-black/85 to-[#0c0b09]/70" />
@@ -37,6 +41,13 @@ export function HeroSection() {
                 {businessConfig.hero.secondaryCtaLabel}
               </Button>
             </div>
+
+            <p className="mt-4 text-sm text-zinc-300">
+              Prefer to call?{" "}
+              <a href={`tel:${businessConfig.business.phone}`} className="font-semibold text-[var(--color-gold-soft)] hover:text-[var(--color-gold)]">
+                {businessConfig.business.phone}
+              </a>
+            </p>
 
             <div className="mt-8">
               <TrustIndicators indicators={businessConfig.trustIndicators} />
