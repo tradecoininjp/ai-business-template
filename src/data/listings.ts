@@ -1,0 +1,58 @@
+import type { Listing } from "@/types/marketplace";
+
+export const listings: Listing[] = [
+  {
+    id: "city-yoga-studio",
+    title: "City Yoga Studio",
+    description: "Private and group yoga sessions with certified instructors in a calm downtown space.",
+    price: 75,
+    location: "Manhattan, New York",
+    image: "/marketplace/listing-yoga.svg",
+    category: "Wellness",
+  },
+  {
+    id: "prime-strength-lab",
+    title: "Prime Strength Lab",
+    description: "One-on-one coaching, performance plans, and mobility sessions for busy professionals.",
+    price: 110,
+    location: "Brooklyn, New York",
+    image: "/marketplace/listing-gym.svg",
+    category: "Fitness",
+  },
+  {
+    id: "clean-space-pro",
+    title: "Clean Space Pro",
+    description: "Recurring residential and office cleaning with premium eco-friendly products.",
+    price: 65,
+    location: "Seattle, Washington",
+    image: "/marketplace/listing-cleaning.svg",
+    category: "Cleaning",
+  },
+  {
+    id: "rapid-flow-plumbing",
+    title: "Rapid Flow Plumbing",
+    description: "Emergency and scheduled plumbing services for homes and small commercial properties.",
+    price: 120,
+    location: "Austin, Texas",
+    image: "/marketplace/listing-plumbing.svg",
+    category: "Home Services",
+  },
+  {
+    id: "luxe-hair-lounge",
+    title: "Luxe Hair Lounge",
+    description: "Modern haircuts, color treatments, and styling packages for events and everyday confidence.",
+    price: 90,
+    location: "Miami, Florida",
+    image: "/marketplace/listing-salon.svg",
+    category: "Beauty",
+  },
+  {
+    id: "smart-tutor-hub",
+    title: "Smart Tutor Hub",
+    description: "Personalized tutoring for math, science, and test preparation with flexible scheduling.",
+    price: 55,
+    location: "San Jose, California",
+    image: "/marketplace/listing-tutoring.svg",
+    category: "Education",
+  },
+];

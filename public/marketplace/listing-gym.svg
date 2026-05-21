@@ -1,0 +1,7 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#0f172a"/>
+  <rect x="120" y="180" width="960" height="440" rx="30" fill="#111827" stroke="#334155"/>
+  <rect x="240" y="340" width="720" height="120" rx="60" fill="#22d3ee" opacity="0.85"/>
+  <text x="180" y="290" fill="#e2e8f0" font-size="52" font-family="Arial">Prime Strength Lab</text>
+  <text x="180" y="530" fill="#94a3b8" font-size="30" font-family="Arial">Performance Coaching</text>
+</svg>

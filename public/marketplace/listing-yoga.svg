@@ -1,0 +1,8 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <circle cx="860" cy="250" r="170" fill="#22d3ee" opacity="0.25"/>
+  <rect x="140" y="220" width="520" height="360" rx="28" fill="#111827" stroke="#334155"/>
+  <text x="180" y="320" fill="#67e8f9" font-size="48" font-family="Arial">City Yoga Studio</text>
+  <text x="180" y="388" fill="#cbd5e1" font-size="28" font-family="Arial">Wellness Sessions</text>
+</svg>

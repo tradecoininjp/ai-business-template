@@ -1,0 +1,7 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#111827"/>
+  <rect x="160" y="210" width="880" height="380" rx="30" fill="#1f2937" stroke="#334155"/>
+  <rect x="240" y="300" width="320" height="170" rx="14" fill="#22d3ee" opacity="0.25"/>
+  <text x="610" y="360" fill="#e2e8f0" font-size="52" font-family="Arial">Smart Tutor Hub</text>
+  <text x="610" y="435" fill="#94a3b8" font-size="28" font-family="Arial">Personalized Learning</text>
+</svg>

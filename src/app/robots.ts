@@ -1,6 +1,13 @@
 import type { MetadataRoute } from "next";
-import { buildRobotsConfig } from "@/lib/seo";
+import { getBaseUrl, buildCanonicalUrl } from "@/lib/marketplace";
 
 export default function robots(): MetadataRoute.Robots {
-  return buildRobotsConfig();
+  return {
+    rules: {
+      userAgent: "*",
+      allow: "/",
+    },
+    sitemap: buildCanonicalUrl("/sitemap.xml"),
+    host: getBaseUrl(),
+  };
 }

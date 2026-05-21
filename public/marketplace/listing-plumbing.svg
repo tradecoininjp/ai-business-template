@@ -1,0 +1,6 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#082f49"/>
+  <rect x="160" y="200" width="880" height="400" rx="28" fill="#0c4a6e" stroke="#7dd3fc"/>
+  <path d="M300 300H900V360H300V300ZM520 360H680V520H520V360Z" fill="#38bdf8"/>
+  <text x="240" y="560" fill="#e0f2fe" font-size="48" font-family="Arial">Rapid Flow Plumbing</text>
+</svg>
