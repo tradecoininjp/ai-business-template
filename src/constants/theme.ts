@@ -6,6 +6,13 @@ export const themes = {
     themeColor: "#0d0d0b",
     accentColor: "#c8a560",
   },
+  "gym-iron": {
+    key: "gym-iron",
+    className: "theme-gym-iron",
+    label: "Gym Iron",
+    themeColor: "#0f1112",
+    accentColor: "#f6b317",
+  },
   "plumbing-pro": {
     key: "plumbing-pro",
     className: "theme-plumbing-pro",

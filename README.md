@@ -101,11 +101,18 @@ Preset source files:
 
 - src/constants/presets.ts
 - src/constants/business.ts
+- src/lib/preset-resolver.ts
 - src/content/services.ts
 - src/content/testimonials.ts
 - src/content/images.ts
 - src/constants/theme.ts
 - src/styles/tokens.css
+
+Preset resolver responsibilities:
+
+- Resolve active preset from `NEXT_PUBLIC_BUSINESS_PRESET`
+- Fallback safely to `barber` when invalid values are provided
+- Expose reusable slices for business, services, testimonials, SEO, and branding
 
 ## Content and Image Replacement Workflow
 
@@ -153,6 +160,27 @@ Use this workflow to customize each business without changing component code.
 For standardized handoff, cloning, branding replacement, and deployment flow, see:
 
 - docs/delivery-playbook-ja.md
+
+For multi-project Vercel deployment from one repository, see:
+
+- docs/vercel-multi-preset-deployment-ja.md
+
+## Vercel Multi-Deployment Pattern
+
+Use one repository and create multiple Vercel projects, each with a different preset env value.
+
+Example mapping:
+
+- ai-barber-demo -> `NEXT_PUBLIC_BUSINESS_PRESET=barber`
+- ai-gym-demo -> `NEXT_PUBLIC_BUSINESS_PRESET=gym`
+- ai-plumbing-demo -> `NEXT_PUBLIC_BUSINESS_PRESET=plumbing`
+- ai-cleaning-demo -> `NEXT_PUBLIC_BUSINESS_PRESET=cleaning`
+
+Outcome:
+
+- shared codebase
+- independent deployment URLs
+- config-only business switching
 
 ## Current Status
 

@@ -1,5 +1,7 @@
 import type { GalleryImage } from "@/types/business";
 
+export type PresetAssetKey = "barber" | "gym" | "plumbing" | "cleaning";
+
 export type PresetImagePack = {
   logo: GalleryImage;
   hero: GalleryImage;
@@ -103,3 +105,14 @@ export const cleaningImagePack: PresetImagePack = {
   ],
   ogImage: "/images/og-barber.svg",
 };
+
+export const presetImagePacks: Record<PresetAssetKey, PresetImagePack> = {
+  barber: barberImagePack,
+  gym: gymImagePack,
+  plumbing: plumbingImagePack,
+  cleaning: cleaningImagePack,
+};
+
+export function getPresetImagePack(preset: PresetAssetKey): PresetImagePack {
+  return presetImagePacks[preset];
+}

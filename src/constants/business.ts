@@ -1,7 +1,7 @@
-import { barberPreset, businessPresets, type BusinessPresetKey } from "@/constants/presets";
+import { resolveBusinessFromEnv } from "@/lib/preset-resolver";
 
-const selectedPreset = (process.env.NEXT_PUBLIC_BUSINESS_PRESET ?? "barber") as BusinessPresetKey;
+const resolvedPreset = resolveBusinessFromEnv();
 
-export const businessConfig = businessPresets[selectedPreset] ?? barberPreset;
+export const businessConfig = resolvedPreset.config;
 
-export const activeBusinessPreset: BusinessPresetKey = businessPresets[selectedPreset] ? selectedPreset : "barber";
+export const activeBusinessPreset = resolvedPreset.presetKey;

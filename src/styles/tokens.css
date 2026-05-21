@@ -18,6 +18,16 @@
   --color-border: #2f2d24;
 }
 
+.theme-gym-iron {
+  --background: #0f1112;
+  --foreground: #f4f5f6;
+  --color-gold: #f6b317;
+  --color-gold-soft: #ffd772;
+  --color-panel: #181b1d;
+  --color-panel-strong: #212529;
+  --color-border: #343a40;
+}
+
 .theme-plumbing-pro {
   --background: #0a1a26;
   --foreground: #eef7ff;

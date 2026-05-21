@@ -135,7 +135,7 @@ export const barberPreset: BusinessConfig = {
 };
 
 export const gymPreset: BusinessConfig = {
-  themeKey: "barber-luxury",
+  themeKey: "gym-iron",
   navigation: [
     { label: "Programs", href: "#services" },
     { label: "Results", href: "#testimonials" },
